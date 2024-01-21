@@ -1,2 +1,4 @@
 # AI-Base-Life-Management-Application
-life-management-application for managing people day to day life in busy world
+## Main Objectives
+### * Creating AI base mobile application for managing day today life of people an enhance the productivity and efficient .
+
