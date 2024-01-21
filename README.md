@@ -7,4 +7,6 @@
 #### - Financial management with predication spending pattern. 
 #### - AI enhance road map monitoring.
 
+![home](https://github.com/IT20194208/simple-learning-management-system/blob/main/img/home.JPG?raw=true)
+
 
