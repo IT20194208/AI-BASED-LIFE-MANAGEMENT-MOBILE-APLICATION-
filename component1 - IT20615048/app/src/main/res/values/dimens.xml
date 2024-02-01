@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <dimen name="cardCornerRadius">20dp</dimen>
+    <dimen name="cardElevation">4dp</dimen>
+    <dimen name="cardMarginTop">16dp</dimen>
+    <dimen name="cardTextSize">9dp</dimen>
+    <dimen name="cardHeight">100dp</dimen>
+    <dimen name="imageWidth">116dp</dimen>
+    <dimen name="imageHeight">96dp</dimen>
+    <dimen name="textWidth">249dp</dimen>
+    <dimen name="cardWight">400dp</dimen>
+    <dimen name="cardMarginLeft">16dp</dimen>
+
+
+</resources>
