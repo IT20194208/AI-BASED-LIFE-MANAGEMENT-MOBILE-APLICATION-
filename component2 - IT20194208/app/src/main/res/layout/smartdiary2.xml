@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E4ECFB"
+    android:id="@+id/drawerLayout"
+    tools:context=".Smartdiary2Activity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#E4ECFB">
+
+        <include
+            android:id="@+id/include"
+            layout="@layout/toolbar" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.945"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/profile2" />
+
+
+
+    <TextView
+        android:id="@+id/helloTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="84dp"
+        android:fontFamily="sans-serif"
+        android:text="Thuresday,"
+        android:textColor="#29235C"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="16dp"
+        android:layout_marginTop="84dp"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/helloTextView"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:id="@+id/textInCard1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="what Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do?"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:gravity="center"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="16dp"
+        android:layout_marginTop="84dp"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.875"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/helloTextView"
+        app:layout_constraintVertical_bias="0.261">
+        <TextView
+            android:id="@+id/textInCard2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="what Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do?"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:gravity="center"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView3"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="16dp"
+        android:layout_marginTop="84dp"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.531"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/helloTextView"
+        app:layout_constraintVertical_bias="0.527">
+        <TextView
+            android:id="@+id/textInCard3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="what Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do?"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:gravity="center"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView4"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="16dp"
+        android:layout_marginTop="84dp"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.531"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/helloTextView"
+        app:layout_constraintVertical_bias="0.785">
+        <TextView
+            android:id="@+id/textInCard4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="what Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do?"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:gravity="center"/>
+    </androidx.cardview.widget.CardView>
+
+        <RelativeLayout
+            android:layout_width="410dp"
+            android:layout_height="79dp"
+            android:layout_marginTop="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardView4"
+            app:layout_constraintVertical_bias="0.515">
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="150dp"
+                android:layout_height="52dp"
+                android:layout_alignParentStart="true"
+
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="51dp"
+                android:layout_marginEnd="210dp"
+                android:background="@drawable/shining_button_background"
+                android:elevation="8dp"
+                android:padding="12dp"
+                android:radius="20dp"
+                android:text="Previous"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="17sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="150dp"
+                android:layout_height="52dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="48dp"
+                android:layout_marginBottom="24dp"
+                android:background="@drawable/shining_button_background"
+                android:elevation="8dp"
+                android:padding="12dp"
+                android:radius="20dp"
+                android:text="Submit"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="17sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+        </RelativeLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <RelativeLayout
+        android:layout_width="250dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@color/blue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <include layout="@layout/nav_drawer" />
+    </RelativeLayout>
+</androidx.drawerlayout.widget.DrawerLayout>
