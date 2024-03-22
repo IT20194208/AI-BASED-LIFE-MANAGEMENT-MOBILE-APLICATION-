@@ -1,0 +1,10 @@
+“MERN Stack Explained,” MongoDB official documentation . [Online]. Available: https://www.mongodb.com/mern-stack/. [Accessed: 15-Apr-2023].
+
+Nilanthi and J. J. Bandara, "Municipal Solid Waste Management –The Sri Lankan Case," Developments in Forestry and Environment Management in Sri Lanka, 2008.
+
+"GIT Explained" GIT SCM .[Online].Available:https://git-scm.com/about [Accessed: 15-Apr-2023].
+
+“React,”React official  . [Online]. Available:https://legacy.reactjs.org/. [Accessed: 15-Apr-2023].
+
+“Selenium,” Selenium official  . [Online]. Available: https://www.selenium.dev/documentation/. [Accessed: 15-Apr-2023].
+
